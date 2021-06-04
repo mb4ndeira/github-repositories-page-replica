@@ -52,11 +52,27 @@ html {
     //     }
 }
 
-// :root {}
+:root {
+    --background: #0d1117;
+    --secundary: #161b22;
+
+    --button-background: #21262d;
+    --border-gray: #21262d;
+    --border-green: #2ea043;
+
+    --text: #c9d1d9;
+    --link-text: #f0f6fc;
+    --gray: #8b949e;
+
+    --highlight-blue: #43a6ff;
+    --highlight-green: #238636;
+}
 
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: auto;
+
+    color: var(--text);
 }
 
 body,
