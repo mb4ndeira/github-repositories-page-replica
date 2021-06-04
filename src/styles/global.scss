@@ -4,6 +4,38 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "SegoeUI-Regular";
+    src: url("/fonts/SegoeUI/SegoeUI-400.ttf");
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SegoeUI-Light";
+    src: url("/fonts/SegoeUI/SegoeUI-Semilight-350.ttf");
+    font-style: normal;
+    font-weight: 350;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SegoeUI-Semibold";
+    src: url("/fonts/SegoeUI/SegoeUI-Semibold-600.ttf");
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SegoeUI-Bold";
+    src: url("/fonts/SegoeUI/SegoeUI-Gras-700.ttf");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
 html {
     font-size: 10px;
 
@@ -20,7 +52,7 @@ html {
     //     }
 }
 
-// :root{}
+// :root {}
 
 body {
     -webkit-font-smoothing: antialiased;
@@ -31,7 +63,7 @@ body,
 input,
 textarea,
 button {
-    font-family: "Font", alternativa;
+    font-family: "SegoeUI-Regular", sans-serif;
     font-weight: normal;
 }
 
@@ -42,6 +74,7 @@ h4,
 h5,
 h6,
 strong {
+    font-family: "SegoeUI-Semibold", sans-serif;
     font-weight: 600;
 }
 
