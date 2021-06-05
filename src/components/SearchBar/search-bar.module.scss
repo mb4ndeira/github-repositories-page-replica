@@ -1,0 +1,50 @@
+.searchBar {
+    margin-right: 16px;
+
+    position: relative;
+
+    input {
+        width: 278px;
+        height: 28px;
+
+        background: var(--background);
+        padding-left: 12px;
+
+        font-family: "SegoeUI-Light";
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: var(--text);
+
+        border-radius: 5px;
+        border: 1px solid var(--border-gray);
+
+        &:focus {
+            width: 518px;
+
+            border: 1px solid var(--highlight-blue);
+
+            transition: 0.2s all;
+        }
+    }
+
+    span {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+        top: 4px;
+        right: 7.25px;
+
+        width: 19px;
+        height: 19px;
+
+        color: var(--text);
+
+        border-radius: 3px;
+        border: 1px solid var(--gray);
+
+        filter: brightness(0.565);
+
+        position: absolute;
+    }
+}
