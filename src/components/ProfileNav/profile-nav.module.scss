@@ -1,2 +1,60 @@
 .profileNav {
+    width: 100%;
+
+    margin-top: 24px;
+
+    padding: 0 32px;
+
+    border-bottom: 1px solid var(--border-gray);
+
+    > div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin: 0 auto;
+        margin-left: calc(280px + 50px);
+
+        width: 496px;
+
+        > div {
+            display: grid;
+            grid-auto-flow: column;
+            grid-gap: 7.5px;
+            align-items: center;
+
+            padding: 8px 16px;
+
+            font-size: 1.4rem;
+            line-height: 30px;
+            color: var(--gray);
+
+            cursor: pointer;
+
+            > :first-child {
+                font-size: 16px;
+            }
+        }
+
+        .active {
+            color: var(--text);
+
+            border-bottom: 2px solid var(--highlight-salmon);
+
+            span {
+                min-width: 20px;
+
+                background-color: var(--button-background);
+                padding: 0 6px;
+
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 18px;
+                color: var(--gray);
+
+                border: 1px solid transparent;
+                border-radius: 20px;
+            }
+        }
+    }
 }
