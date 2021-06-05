@@ -19,7 +19,7 @@ export default function ProfileNav() {
                     <span><p>24</p></span>
                 </div>
                 <div>
-                    <Stats />
+                    <Stats transform="rotate(180)" />
                     <p>Projects</p>
                 </div>
                 <div>
