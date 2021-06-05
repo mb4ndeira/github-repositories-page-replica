@@ -27,7 +27,7 @@ export default function SearchBar({ active }: SearchBarProps) {
                 ref={input}
             />
             {!isActive &&
-                <span>
+                <span onClick={() => input.current?.focus()}>
                     <p>/</p>
                 </span>
             }

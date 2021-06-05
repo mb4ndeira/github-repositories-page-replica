@@ -54,6 +54,23 @@
 
         button {
             margin-right: 10px;
+
+            height: 28px;
+
+            background: none;
+
+            color: var(--text);
+
+            border: none;
+            border-radius: 3px;
+        }
+
+        button:nth-child(3) {
+            width: 60px;
+
+            background: var(--button-background);
+
+            border: 1px solid var(--gray);
         }
     }
 }
