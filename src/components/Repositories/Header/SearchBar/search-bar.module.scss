@@ -1,0 +1,69 @@
+.searchBar {
+    margin-right: 16px;
+
+    width: 100%;
+    max-width: 486px;
+
+    position: relative;
+
+    input {
+        width: 100%;
+        height: 32px;
+
+        background: var(--background);
+        padding-left: 12px;
+
+        font-family: "SegoeUI-Light";
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: var(--text);
+
+        border-radius: 5px;
+        border: 1px solid var(--border-gray);
+
+        &:focus {
+            border: 1px solid var(--highlight-blue);
+
+            transition: 0.2s all;
+        }
+
+        &::placeholder {
+            color: var(--text);
+            opacity: 0.4;
+        }
+
+        &:-ms-input-placeholder {
+            color: var(--text);
+            opacity: 0.4;
+        }
+    }
+
+    span {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+        top: 4px;
+        right: 09.5px;
+
+        width: 19px;
+        height: 19px;
+
+        p {
+            margin-bottom: 0.5px;
+
+            padding-left: 0.115px;
+
+            color: var(--text);
+            font-size: 1.125rem;
+            line-height: 1.125rem;
+        }
+
+        border-radius: 3px;
+        border: 1px solid var(--gray);
+
+        filter: brightness(0.565);
+
+        position: absolute;
+    }
+}
