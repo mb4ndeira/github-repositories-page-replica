@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 
 import Header from '../components/Header'
+import Profile from '../components/Profile'
+import ProfileNav from '../components/ProfileNav'
 
 import styles from './main.module.scss'
 
@@ -15,6 +17,10 @@ export default function Home() {
       }}
     >
       <Header keyPressed={keyPressed} />
+      <ProfileNav />
+      <div className={styles.content} >
+        <Profile />
+      </div>
     </main>
   )
 }

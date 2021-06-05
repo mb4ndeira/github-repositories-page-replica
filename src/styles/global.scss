@@ -14,6 +14,14 @@
 
 @font-face {
     font-family: "SegoeUI-Light";
+    src: url("/fonts/SegoeUI/SegoeUI-Light-300.ttf");
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SegoeUI-Semilight";
     src: url("/fonts/SegoeUI/SegoeUI-Semilight-350.ttf");
     font-style: normal;
     font-weight: 350;
@@ -57,15 +65,13 @@ html {
     --secundary: #161b22;
 
     --button-background: #21262d;
-    --border-gray: #21262d;
-    --border-green: #2ea043;
+    --border-gray: #424447;
 
     --text: #c9d1d9;
     --link-text: #f0f6fc;
     --gray: #8b949e;
 
     --highlight-blue: #43a6ff;
-    --highlight-green: #238636;
 }
 
 body {
