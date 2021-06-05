@@ -20,6 +20,11 @@
             width: 32px;
 
             cursor: pointer;
+
+            &:hover {
+                transition: 0.1s all;
+                opacity: 0.6;
+            }
         }
 
         > span {
@@ -36,6 +41,11 @@
             color: var(--link-text);
 
             cursor: pointer;
+
+            &:hover {
+                transition: 0.1s all;
+                opacity: 0.6;
+            }
 
             .icon {
                 margin-left: 2px;
@@ -71,6 +81,11 @@
             background: var(--button-background);
 
             border: 1px solid var(--gray);
+
+            &:hover {
+                transition: 0.1s all;
+                filter: brightness(1.2);
+            }
         }
     }
 }

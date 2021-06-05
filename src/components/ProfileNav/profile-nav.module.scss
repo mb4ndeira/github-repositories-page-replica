@@ -12,10 +12,9 @@
         align-items: center;
         justify-content: space-between;
 
-        margin: 0 auto;
-        margin-left: calc(280px + 50px);
-
         width: 496px;
+
+        margin: 0 auto;
 
         > div {
             display: grid;
@@ -31,6 +30,18 @@
 
             cursor: pointer;
 
+            border: 2px solid transparent;
+
+            &:hover {
+                border-bottom: 2px solid var(--gray);
+                transition: 0.1s all;
+
+                p {
+                    filter: brightness(1.45);
+                    transition: 0.1s all;
+                }
+            }
+
             > :first-child {
                 font-size: 16px;
             }
@@ -40,6 +51,18 @@
             color: var(--text);
 
             border-bottom: 2px solid var(--highlight-salmon);
+
+            &:hover {
+                border-bottom: 2px solid var(--highlight-salmon);
+
+                transition: none;
+                filter: none;
+
+                p {
+                    filter: none;
+                    transition: none;
+                }
+            }
 
             span {
                 min-width: 20px;

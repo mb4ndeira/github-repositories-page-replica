@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-import { BiChevronDown, BiChevronDown as DownIcon } from 'react-icons/bi'
+import { BiChevronDown as DownIcon } from 'react-icons/bi'
 
 import SearchBar from '../SearchBar'
 

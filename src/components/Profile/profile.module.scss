@@ -9,7 +9,7 @@
 
         width: 100%;
 
-        border-radius: 100%;
+        border-radius: 50%;
         border: 1px solid var(--border-gray);
     }
 
@@ -45,6 +45,13 @@
 
         border: 1px solid var(--border-gray);
         border-radius: 6px;
+
+        &:hover{
+            border: 1px solid var(--gray);
+
+            transition: 0.1s all;
+            filter: brightness(1.2);
+        }
     }
 
     > div:nth-child(4) {
@@ -67,6 +74,17 @@
         span {
             display: inline-flex;
             align-items: center;
+
+            cursor: pointer;
+
+            &:hover {
+                color: var(--highlight-blue);
+
+                p,
+                p:first-of-type {
+                    color: var(--highlight-blue);
+                }
+            }
 
             .icon {
                 margin-right: 05px;
