@@ -26,10 +26,14 @@
             transition: 0.2s all;
         }
 
-        &::placeholder,
+        &::placeholder {
+            color: var(--text);
+            opacity: 0.8;
+        }
+
         &:-ms-input-placeholder {
-            color: var(--gray);
-            opacity: 1;
+            color: var(--text);
+            opacity: 0.8;
         }
     }
 
@@ -39,12 +43,20 @@
         justify-content: center;
 
         top: 4px;
-        right: 7.25px;
+        right: 09.5px;
 
         width: 19px;
         height: 19px;
 
-        color: var(--text);
+        p {
+            margin-bottom: 0.5px;
+            
+            padding-left: 0.115px;
+
+            color: var(--text);
+            font-size: 1.125rem;
+            line-height: 1.125rem;
+        }
 
         border-radius: 3px;
         border: 1px solid var(--gray);
